@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+:root{
+  --primaryColor : #5fb7ea;
+  --primaryRGBA : rgba(0,0,0,0.5);
+  --mainGrey: #fafafa;
+  --darkGrey: #5f5e5e;
+  --mainWhite: #fff;
+  --mainBlack: #222;
+  --mainTransition : 0.3s all ease-in-out;
+  --mainSpacing : 0.3rem
+}
+
+
+.text-title{
+  text-transform: capitalize;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  letter-spacing: var(--mainSpacing);
+}
+.text-main{
+  color: var(--primaryColor);
+}
+
+body{
+  font-family: 'Open Sans', sans-serif!important;
+  background: var(--mainGrey) !important;
+  color: var(--mainBlack) !important;
+}
+
+.main-link{
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  background: #761c1e;
+  color: var(--mainWhite);
+  text-transform: uppercase;
+  letter-spacing: var(--mainSpacing);
+  outline:  0.23px solid #761c1e;
+  outline-offset: 4px;
+  border: none;
+  transition: var(--mainTransition);
+}
+.featured-link{
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  background: #000;
+  color: var(--mainWhite);
+  text-transform: uppercase;
+  letter-spacing: var(--mainSpacing);
+  outline:  0.23px solid #761c1e;
+  outline-offset: 4px;
+  border: none;
+  transition: var(--mainTransition);
+}
+.featured-link:hover{
+  background: var(--primaryRGBA);
+  text-decoration: none;
+  color: #fff;
+  outline-color: var(--darkGrey);
+}
+
+.main-link:hover{
+  background: var(--primaryRGBA);
+  text-decoration: none;
+  color: #fff;
+  outline-color: var(--darkGrey);
+}
+
+
+.cartitem {
+  cursor: pointer;
+}

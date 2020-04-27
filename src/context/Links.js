@@ -1,0 +1,27 @@
+export const Links = [
+    {
+        id:1,
+        text:'home',
+        path:'/'
+    },
+    {
+        id:2,
+        text:'about',
+        path:'/about'
+    },
+    {
+        id:3,
+        text:'Fruits',
+        path:'/Fruits'
+    },
+    {
+        id:4,
+        text:'cart',
+        path:'/Cart'
+    },
+    {
+        id:5,
+        text:'contact',
+        path:'/contact'
+    }
+]

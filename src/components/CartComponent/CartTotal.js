@@ -20,9 +20,9 @@ export default function CartTotal({history}) {
                             <h3 className="my-4 text-capitalize">tax : $ {cartTxt}</h3>
                             <h3 className="my-4 text-capitalize">total : $ {cartTotal}</h3>
                             <PayPalBtn 
-                            history={history}
-                            cartTotal={cartTotal}
-                            clearCart={clearCart}
+                                history={history}
+                                cartTotal={cartTotal}
+                                clearCart={clearCart}
                             />
                         </div>
                         </div>
